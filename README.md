@@ -2,9 +2,18 @@
 
 Turn your Flipper Zero into a fully functional TV remote. Record buttons from any IR remote and replay them from your Flipper — no original remote needed.
 
-> **Fork notice:** This fork adds the ability to **import saved `.ir` files** from the Flipper's built-in Infrared app (or any standard Flipper IR library file) and map their signals to the TV Remote buttons. The official upstream repo only supports learning signals directly from a physical remote.
->
-> Pull request to upstream: https://github.com/jmanion0139/flipper_tv_remote/pull/3
+## 🍴 This is a fork of the original project
+
+**Original repo:** https://github.com/jmanion0139/flipper_tv_remote
+
+**Pull request to upstream:** https://github.com/jmanion0139/flipper_tv_remote/pull/3
+
+### ⭐ Key change in this fork: Import saved `.ir` files
+
+This fork adds the ability to **import saved `.ir` files** from the Flipper's built-in Infrared app (or any standard Flipper IR library file) and **map their signals to the TV Remote buttons**.
+
+- Original app: only learns signals directly from a physical IR remote.
+- This fork: lets you pick any existing `.ir` file and assign its named signals to Power, Volume, Channel, D-pad, OK, Back, Home, etc.
 
 ## What it does
 
